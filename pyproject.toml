@@ -1,0 +1,26 @@
+[project]
+name = "jira_vulnerabilities"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Your Name",email = "you@example.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "boto3 (>=1.40.39,<2.0.0)",
+    "jira (>=3.10.5,<4.0.0)"
+
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode=false
+
+#######
+
+
+

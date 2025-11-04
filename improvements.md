@@ -1,0 +1,6 @@
+- AWS credentials obtained in more programmatic way or instructions on how to set it up in IDE for debugging in IDE
+- fully automated with cron and service account
+  - need secure way to get credentials from some config file for jira, aws
+- linter, formatter
+- unit tests
+- error handling if scan results are not available
